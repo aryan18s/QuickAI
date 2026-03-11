@@ -3,7 +3,7 @@ import multer from 'multer';
 import { auth } from '../middlewares/auth.js';
 import { generateArticle, generateBlogTitle, generateImage, removeImageBackground, removeImageObject, resumeReview } from '../controllers/aiController.js';
 
-const upload = multer({ dest: '/tmp' });
+const upload = multer({ dest: 'uploads/' });
 const aiRouter = express.Router();
 
 aiRouter.post('/generate-article',auth, generateArticle)
