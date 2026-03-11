@@ -13,6 +13,8 @@ const Hero = () => {
       <div className='text-center mb-6'>
         <h1 className='text-3xl sm:text-6xl 2xl_txt-7xl font-semibold mx-auto leading-[1.2]'>Create Amazing Content <br/> with <span className='text-primary'>AI Tools</span></h1>
         <p className='mt-4 max-w-xs sm:max-w-lg 2xl:max-w-xl m-auto max-sm:text-xs text-gray-600'>Transform your content creation with our suite of premium AI Tools. Write articles, generate images, and enhance your workflow.</p>
+        <p className='mt-2 text-sm text-gray-400'>Made By <span className='font-bold bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 bg-clip-text text-transparent'>Aryan Sojitra</span></p>
+
       </div>
 
 
